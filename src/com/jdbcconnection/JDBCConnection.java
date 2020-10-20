@@ -16,7 +16,7 @@ public class JDBCConnection {
 		try {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/new_solutions","root","Mach0427$");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/new_solutions","root","root");
 			System.out.println("Connected Successfully:");
 			
 			Statement st=con.createStatement();
